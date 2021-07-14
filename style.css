@@ -222,10 +222,14 @@ footer image {
    /* navigation style */
    nav{
        width: 80%;
-       flex-direction: row;
+       flex-direction: column;
        justify-content: flex-start;
        align-items: center;
        margin: auto;
+   }
+   .nav-option{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
    }
 
    /* Button Style */
